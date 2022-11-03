@@ -4,7 +4,6 @@ import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.view.View;
@@ -40,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         binding.fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "This is not a drill", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "This is a little push change", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
